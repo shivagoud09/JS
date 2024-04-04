@@ -1,0 +1,41 @@
+body{
+    background-color: burlywood;
+}
+div{
+    border:1px solid black;
+    background-color: yellow;
+    transition: width , height,transform;
+    height:200px;
+    width:200px;
+    /* transition-delay: 2s; */
+    transition-duration: 1s;
+
+}
+
+.t:hover{
+    width:400px;
+    height:400px;
+    transform: rotate(120deg);
+} 
+
+.linear{
+background-color: black;
+transition-timing-function: linear;
+}
+
+.easein{
+    background-color: chocolate;
+    transition-timing-function: ease-in;
+}
+.easeout{
+    background-color:blue;
+    transition-timing-function: ease-out;
+}
+
+.easeio{
+    background-color:blueviolet;
+    transition-timing-function: ease-in-out;
+}
+.linear:hover,.easein:hover,.easeout:hover,.easeio:hover{
+    width:700px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("before group");
+        console.group("group1");
+        console.log("group");
+        console.log("group");
+
+        console.groupCollapsed();
+        console.log("part of the group");
+        console.log("part of the group");
+        console.log("part of the group");
+
+        console.groupEnd();
+
+        console.log("after group");
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(150, 148, 148);
+}
+@keyframes change {
+    from{background-color: blue;}
+    to{background-color: greenyellow;}
+    
+}
+.b1{
+    border:1px solid black;
+    background-color: blue;
+    animation-name: change;
+    /* animation-iteration-count:3 ; */
+    animation-duration: 4s;
+    height:80px;
+    width:80px;
+}
+
+.b2{
+    border:1px solid black;
+    background-color: rgb(255, 0, 0);
+    animation-name: change;
+    animation-duration: 4s;
+    height:80px;
+    width:80px;
+    
+
+}
+
+@keyframes change1 {
+    from{background-color: blue;}
+    to{background: linear-gradient(red,blue,green);}
+    
+}
+
+.b3{
+    border:1px solid black;
+    background-color:green;
+    animation-name: change1;
+    animation-duration: 5s;
+    height:80px;
+    width:80px;
+}

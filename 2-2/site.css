@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(42, 42, 42);
+        display:grid;
+        grid-template-columns: 0.5fr 1.5fr 8fr;
+        grid-template-areas:
+        "M S B";
+
+}
+Header{
+    grid-area: S;
+    background-color:orange;
+    height:100%;
+    position: fixed;
+    width:20%
+    
+
+    /* border-radius:10px; */
+
+}
+.home{
+    text-align: center;
+    padding-top:200px;
+    padding-bottom:20px;
+    color:rgba(16, 16, 16, 0.848);
+}
+.home:hover{
+color:white;
+}
+
+
+.am:hover{
+    color:white;
+    }
+.pro:hover{
+color:white;
+ }
+ .contact:hover{
+    color:white;
+    }
+
+.am{
+    text-align: center;
+    padding-bottom:20px;
+    color:rgb(0, 0, 0);
+}
+.pro{
+    text-align: center;
+    padding-bottom:20px;
+    color:rgb(0, 0, 0);
+}
+.contact{
+    text-align: center;
+    color:rgba(16, 16, 16, 0.848);
+}
+main{
+    grid-area: B;
+}
+
+.out{
+    display:flex;
+    height:700px;
+}
+.in1{
+    padding-top:150px;
+    width:70%;
+}
+.in2{
+    width:30%;
+    padding-top:150px;
+    padding-left:20px;   
+}
+.img1:hover{
+    transform: scale(1.05,1.05);
+}
+.m{
+    color:orange;
+    font-size:x-large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.more{
+    background-color: orange;
+    color:black;
+    padding:5px;
+    border:1px orange solid;
+    border-radius:10px;
+    margin-left:10px;
+}
+/* .back{
+    background-color: orange;
+    height:300px;
+    width:300px;
+    border:1px orange solid;
+    z-index: 2;
+} */
+
+.h1{
+    padding-left:20px;
+    color:orange;
+}
+.h2{
+    padding-left:20px;
+    color: white;
+}

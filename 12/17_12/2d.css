@@ -1,0 +1,62 @@
+body{
+    background-color: bisque;
+}
+
+/* div{
+    /* background-color: chartreuse;
+    border: 1px solid black;
+    /* height:100px;
+    width:100px; */
+    /* margin:30px; */
+} */
+
+div:hover{
+background-color: chocolate;
+transform: translate(150px,150px);
+}
+
+/* div:hover{
+    background-color: chocolate;
+    transform:rotate(-160deg); 
+} */
+/* div:hover{
+    background-color: chocolate;
+    transform:scale(2,2);
+} */
+/* div:hover{
+    background-color: chocolate;
+    transform:scaleX(3);
+} */
+/* div:hover{
+    background-color: chocolate;
+    transform:scaleY(3);
+} */
+
+/* div:hover{
+    background-color: chocolate;
+    transform:skew(60deg);
+} */
+
+/* div:hover{
+    background-color: chocolate;
+    transform:rotateX(70deg); 
+} */
+/* div:hover{
+    background-color: chocolate;
+    transform:rotateY('80deg') 
+} */
+
+div{
+    text-shadow:2px 2px red , 4px 4px yellow;
+    border: 1px solid black;
+    background-color: chartreuse;
+    height:300px;
+    width:300px;
+    box-shadow: 2px 2px black  inset;
+    margin:30px;
+}
+
+img{
+    border:1px solid black;
+    border-radius: 70%;
+}

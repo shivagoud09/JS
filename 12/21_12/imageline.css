@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(165, 165, 231);
+}
+
+img.base{
+    vertical-align:baseline;
+}
+
+img.bottom{
+    vertical-align:bottom;
+}
+img.top{
+    vertical-align:top;
+}
+img.middle{
+    vertical-align:middle;
+}
+img.sub{
+    vertical-align:sub;
+}
+img.sup{
+    vertical-align:super;
+}
+
+/*text decoration*/
+.t1{
+    text-decoration:underline;
+}
+.t2{
+    text-decoration: overline;
+    text-decoration-color:red ;
+}
+.t3{
+    text-decoration: line-through;
+    text-decoration-style:dotted;
+}
+
+.t4{
+    text-decoration: overline line-through underline;
+    text-decoration-thickness: 6px;
+}
+/* text trnsform */
+.u1{
+    text-transform: uppercase;
+}
+
+.l1{
+    text-transform: lowercase;
+}
+
+.cap{
+    text-transform: capitalize;
+}
+
+/* text - indent*/
+.t-i{
+    text-indent: 300px;
+}
+
+.l-space{
+    letter-spacing:10px;
+}
+
+.w-space{
+    word-spacing: 4px;;
+}
+
+.l-height{
+    line-height:1;
+}
+
+.white-space{  /* sentence comes in same line*/
+    white-space: nowrap;
+}
+

@@ -1,0 +1,16 @@
+div{
+    width: 100px;
+    height:100px;
+    background-color: rgb(234, 65, 4);
+    border: 1px solid black;
+    transition: width 2s;
+}
+
+div:hover{
+    width:400px;
+}
+
+
+body{
+    background-color: black;
+}

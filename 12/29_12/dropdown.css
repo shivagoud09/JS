@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 214, 118);
+}
+ul{
+    background-color: brown;
+}
+
+li{
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 30px;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+}
+
+.drop1{
+   display:none;
+   background-color: chartreuse;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    background-color: green;
+}
+li:hover .drop1{
+    display:block;
+    position:absolute;
+}
+
+.drop2{
+    display:none;
+    background-color: chartreuse;
+}
+li:hover .drop2{
+    display:block;
+    position:absolute;
+}

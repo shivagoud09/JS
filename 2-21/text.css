@@ -1,0 +1,24 @@
+body{
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+textarea{
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+button{
+    background-color:darkgray;
+    width:100px;
+    height:50px;
+}
+
+
+
+
+
+

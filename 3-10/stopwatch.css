@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(111, 129, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.stop{
+    border:1px 1px solid;
+    background-color: whitesmoke;
+    width:300px;
+    height:200px;
+    text-align: center;
+    border-radius: 10px;
+ 
+}
+.button{
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+   

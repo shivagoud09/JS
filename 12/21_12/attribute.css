@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(224, 217, 231);
+}
+
+a[target="_blank"]{
+    color:chartreuse;
+}
+
+a[target="_self"]{
+    color:coral;
+}
+
+[class|="top"]{   /*This class is emplimented to all the elements which are starting with the class name top and it will not applicable when we give space between top and another word 
+ex: top right , but it works for top-right.*/
+    color:rgb(236, 22, 22);
+}
+
+[class^="beer"]{   /*This class is emplimented to all the elements which are starting with sequence of class name beer*/
+    color:darkgreen;
+}
+
+[class$="ar"]{/*This class is emplimented to all the elements which are ending with sequence of class name ar*/
+    background-color:chocolate;
+}
+[class*="ai"]{  /*This class is emplimented to all the elements which are having the sequence of class name ai any where in the class name*/
+    color:darkorange;
+}
+
+[class~="nature"]  /*This class is emplimented to all the elements which are having the class name nature and it will not applicable when we give - between nature and another word 
+ex: nature-right , but it works for  nature right.*/
+{
+    border:darkblue solid 3px;
+}
+

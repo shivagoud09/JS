@@ -1,0 +1,41 @@
+body{
+    background-color: cornflowerblue;
+
+}
+
+#a1{
+    border:2px solid black;
+}
+
+#a2{
+    border:3px solid black;
+}
+#a3{
+    border:3px solid black;
+    height:100px;
+    width:100px;
+    background-color: blue;
+}
+
+#a4{
+    border:3px solid black;
+    height:100px;
+    width:100px;
+    background-color: rgb(231, 111, 13);
+}
+
+
+#a5{
+    border:3px solid black;
+    height:100px;
+    width:100px;
+    background-color: rgb(13, 231, 20);
+}
+
+#a6{
+    border:3px solid black;
+    height:40px;
+    width:40px;
+    background-color: rgb(205, 15, 18);
+}
+

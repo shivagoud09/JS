@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(202, 164, 236);
+}
+
+
+::marker{
+    color: red;
+}
+
+ol ::marker{
+    color:green;
+}
+
+div::first-letter{
+    color:chartreuse;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+}
+
+div::first-line{
+    color:darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+
+}
+
+div ::selection{
+    background-color:green;
+}

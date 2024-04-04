@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">Text covert to upper</p>
+<input type="text" id="text" onblur="upper()"><br><br>
+<div>Focus</div>
+<input type="text" id="t2" onfocus="change(this)">
+
+<script>
+    const c=document.getElementById('text');
+
+    function upper(){
+        c.value=c.value.toUpperCase();
+    
+    }
+
+    const r= documnet.getElementById('ts');
+    function change(e){
+        e.style.background="green"
+    }
+</script>
+</body>
+</html>

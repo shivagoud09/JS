@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(219, 219, 219);
+}
+
+.out{
+    display:grid;
+    grid-template-areas:
+    "h h h"
+    "u u u"
+    "m m m"
+    "f f f";
+    margin-left:100px;
+    margin-right: 100px;;
+   
+}
+header{
+    grid-area: h;
+    background-color: white;
+    height:40px;
+    position: sticky;
+    top:0px;
+}
+nav{
+    grid-area:u;
+    background-color: rgb(89, 89, 252);
+    height:400px;
+}
+main{
+    grid-area:m;
+    background-color: white;
+    height:150px;
+}
+footer{
+    grid-area:f;
+    background-color: rgb(89, 89, 252);
+    height:300px;
+}
+.h1{
+    display:inline-block;
+    padding-left:60px;
+    padding-top: 13px;
+}
+.h1:hover{
+    color:blue;
+}
+
+nav.o1{
+    display: flex;
+}
+
+div.i1{
+    width:50%;
+}
+div.i2{
+    width:50%;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:130px;
+    padding-left:80px;
+    font-size:x-large;
+}
+div.ii2{
+    padding-top:5px;
+    padding-left:80px;
+    color:white;
+}
+div.ii3{
+    margin-top: 20px;
+    border:2px solid white;
+    margin-right:40px;
+    margin-left:80px;
+}
+div.i55{
+    color:white;
+    padding-top:20px;
+    padding-left:80px;
+
+}
+span.ii4{
+    background-color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+      color:rgb(89, 89, 252);
+      border-radius: 25px;
+    margin-left:150px;
+}
+
+div.i21{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top:10px;
+    font-size: larger;
+
+}
+div.i22{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:10px;
+    padding-left:350px;
+    font-size:small;
+}
+span.i23{
+    background-color: white;
+    margin-left:500px;
+      color:rgb(89, 89, 252);
+      padding:10px;
+      border:2px solid rgb(89, 89, 252);
+    
+}
+.i23:hover{
+    color:black;
+}
+
+
+
+
+div.o2{
+    display:flex;
+}
+
+div.i31{
+    width:30%;
+    margin-top:40px;
+    margin-left:90px;
+    opacity: 0.6;
+
+
+}
+div.i32{
+    width:30%;
+    margin-top:40px;
+    margin-left:90px;
+    opacity: 0.6;
+}
+div.i33{
+    width:30%;
+    margin-top:40px;
+    margin-left:90px;
+    opacity: 0.6;
+
+}
+.p1{
+    padding-top: 10px;
+}
+
+.i31:hover{
+    transform:scale(1.25,1.25);
+    opacity:1;
+}
+.i32:hover{
+    transform:scale(1.25,1.25);
+    opacity:1;
+}
+.i33:hover{
+    transform:scale(1.05,1.05);
+    opacity:1;
+}
+
+div.l1{
+    border:3px solid white;
+    
+
+}

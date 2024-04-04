@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1{
+            border:1px solid black;
+        }
+        .c2{
+            background-color: red;
+        }
+        .c3{
+            height:100px;
+            width:100px;
+        }
+        .c4{
+            background-color: yellow;
+        }
+        .c5{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="c1 c2 c3 c4" id="id">Hello</div>
+    <button id="btn" onclick="addclass()">ADD</button>
+    <button id="btn1" onclick="removeClass()">Remove</button>
+    <script>
+        const list =document.getElementById('id').classList;
+        function addclass(){
+        list.add('c5');
+        console.log(list.length);
+        }
+        function removeClass(){
+            list.remove('c5');
+        }
+    </script>
+</body>
+</html>

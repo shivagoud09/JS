@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(188, 162, 212);
+
+}
+
+.out{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    background-color:red;
+}
+
+.in{
+    height:200px;
+    width:30%;
+    background-color: black;
+    margin:5px;
+}

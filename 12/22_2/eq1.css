@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(245, 83, 83);
+}
+
+
+.c1{
+    background-color:black;
+    color:white;
+    border: 1px solid black;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:20px;
+    height:50px;
+    border-radius:30px;
+    display:flex;
+    align-items: center;
+    /* background-color: rgb(245, 83, 83); */
+}
+/* h1{
+    color: black;
+} */
+.c2{
+    display: inline-block;
+    padding-left:50px;
+    padding-top:3px;
+    
+    
+}
+div.heading{
+    /* width: 50%;
+    height: 300px; */
+    /* background-color: blue; */
+    position: relative;
+    border-left:3px solid green;
+    
+    
+}
+h1.h{
+    position: absolute;
+    top:100px;
+    left:100px;
+}
+h2.h1{
+    position: absolute;
+    top:150px;
+    left:100px;
+
+}
+h3{
+    border:1px solid;
+    font-size:large;
+    color:white;
+    position: absolute;
+    top:220px;
+    left:100px;
+
+}
+
+
+div.image{
+    /* background-color: yellow; */
+    padding-left:30px;
+    text-align: center;
+    border-right:3px solid green;
+    
+
+}
+h3:hover{
+ color:black;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading,.image{
+    height:300px;
+    width:40%;
+}
+img{
+    margin-top: 10px;
+}
+
+.imagebox{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* .c4{
+    height: 100px;
+    background-color: rgb(245, 83, 83);
+    border:1px solid black;
+    display:flex;
+    justify-content:space-around;
+    
+}   
+
+div.in1{
+    background-color: blue;
+    height:100px;
+    width:27.5%;
+}
+
+div.in2{
+    background-color: brown;
+    height:100px;
+    width:27.5%;
+}
+div.in3{
+    height:100px;
+    width:27.5;
+    background-color: rgb(195, 123, 35);
+} */
+
+div.two{
+    border:1px solid color;
+    background:black;
+    height:500px;
+    display: flex;
+    justify-content:space-evenly;
+    width:82.4%;
+    margin-left:119px;
+
+}
+
+div.in1{
+    width:25%;
+    /* border:2px solid black;
+    border:2px solid black; */
+    /* box-shadow: 2px 2px grey; */
+}
+.in1:hover{
+    font-size: x-large;
+    transform: scale(1.1,1.1);
+}
+.in2:hover{
+    font-size: x-large;
+    transform: scale(1.1,1.1);
+}
+.in3:hover{
+    font-size: x-large;
+    transform: scale(1.1,1.1);
+}
+div.in2{
+    width:25%;
+    /* border:1px solid black;
+    box-shadow: 2px 2px grey; */
+}
+
+div.in3{
+    width:25%;
+    /* border:2px solid black; */
+    
+    
+}
+.im1{
+margin:20px;
+
+}
+
+

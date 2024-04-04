@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1{
+            border:1px solid black;
+            height:200px;
+            width:200px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magnam laudantium, velit aut quae aspernatur fugit ut totam odit eaque consequuntur soluta hic distinctio, provident blanditiis quam dolorem molestias quas.</div>
+<button onclick="tog()">Toggle</button>
+<script>
+    const x=document.getElementById('d1').classList;
+    function tog(){
+        x.toggle('c1');
+    }
+</script>
+</body>
+</html>

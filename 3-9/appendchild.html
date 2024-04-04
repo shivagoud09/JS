@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mydiv">
+        <p>para1</p>
+        <p>para2</p>
+        <p>para3</p>
+    </div>
+
+    <button id="button" onclick="element()">Click</button>
+    <script>
+        function element(){
+            const createopera=document.createElement("p");
+            const node =document.createTextNode("this is a third paragaraph");
+            createopera.appendChild(node);
+
+            const el=document.getElementById("mydiv");
+            el.appendChild(createopera);
+               }
+    </script>
+</body>
+</html>

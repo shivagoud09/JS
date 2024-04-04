@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+}
+
+
+select{
+    appearance: none;
+    background-color: chartreuse;
+}
+
+option{
+    background-color: yellow;
+    color:blue;
+}

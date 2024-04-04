@@ -1,0 +1,11 @@
+
+.p2{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    position: absolute;
+    background-color: darkorange;
+    right: 100px;
+    bottom: 10px;
+
+}

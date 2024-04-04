@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="i" onclick="has()">CLick</button>
+
+    <script>
+        function has(){
+            console.log("button clicked");
+        }
+        const i=document.getElementById('i');
+        console.log(i.hasAttribute('onclick'));
+        console.log(i.hasAttribute('id'));
+        console.log(i.hasAttribute('class'));
+        console.log(i.getAttribute('id'));
+    </script>
+
+
+</body>
+</html>

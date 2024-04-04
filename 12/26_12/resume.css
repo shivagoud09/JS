@@ -1,0 +1,22 @@
+div.main{
+    display:grid;
+    grid-template-areas: 
+    "h h h"
+    "n m m"
+    "n m m";
+}
+header{
+    grid-area: h;
+    height:60px;
+    background-color: rgb(51, 51, 51);
+}
+nav{
+    grid-area:n;
+    width:80%;
+    background-color:rgb(2, 2, 46) ;
+    height:1000px;;
+}
+div.n1{
+    color:white;
+}
+

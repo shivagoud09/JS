@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(238, 159, 159);
+}
+
+
+.r1{
+    list-style-type:lower-roman;
+}
+
+.r2{
+    list-style-type:upper-roman;
+}
+
+.a1{
+    list-style-type:upper-alpha;
+}
+
+.a2{
+    list-style-type: lower-alpha;
+}
+
+.g1{
+    list-style-type: lower-greek;
+}
+
+.l1{
+    list-style-type: upper-latin;
+}
+
+.l2{
+    list-style-type: disc;
+}
+
+.c1{
+    list-style-type:circle;
+}
+
+.am1{
+    list-style-type: armenian;
+}
+
+.s1{
+    list-style-type: square;
+}
+.inside{
+    list-style-position: inside;
+}
+
+table,th,td{
+    width: 30%;
+    height:30%;
+    border: 3px solid black;
+}
+
+th:hover{
+    opacity:0.6;
+    background-color: chartreuse;
+    
+}
+
+td:hover{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+   
+}
+a:hover{
+    background-color: violet;
+}
+
+th{
+    text-align:center;
+}
+
+td{
+    height:60px;
+    vertical-align:top;
+}

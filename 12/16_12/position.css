@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(250, 186, 229);
+}
+
+.p1{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    position: relative;
+    background-color: darkblue;
+    top:300px;
+    left:400px;
+    
+}
+
+
+
+

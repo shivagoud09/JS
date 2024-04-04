@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="info"></div>
+
+    <script>
+        const inf =document.getElementById('info');
+        let text="";
+        let x= prompt("enter a name");
+
+        if(x==null || x==""){
+            text="User not entered";
+        }
+        else{
+            text=`User name is ${x}`;
+        }
+        info.innerHTML=text;
+    </script>
+</body>
+</html>

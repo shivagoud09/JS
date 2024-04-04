@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(165, 241, 216);
+}
+
+div{
+    border:1px solid black;
+    height:350px;
+    width:350px;
+
+}

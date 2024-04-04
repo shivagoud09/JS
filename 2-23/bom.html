@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="location"></div>
+    <div id="hostname"></div>
+    <div id="pathname"></div>
+    <div id="protocol"></div>
+    <button onclick="flip()">Mumbai Indians</button>
+
+    <script>
+        let add=window.location.href
+        document.getElementById('location').innerHTML= add;
+        document.getElementById('hostname').innerHTML= window.location.hostname;
+        document.getElementById('pathname').innerHTML= window.location.pathname;
+        document.getElementById('protocol').innerHTML= window.location.protocol;
+        function flip(){
+            window.location.assign("https://www.mumbaiindians.com/")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{ background-color: grey;}
+
+.out{
+    height:400px;
+    width:400px;
+    background-color:coral;
+    border:1px solid black;
+    position: relative;
+}
+
+.in1{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:40px;
+    left:40px;
+    background-color: chartreuse;
+    border: 1px solid black;
+    z-index: 3;
+}
+
+.in2{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:50px;
+    left:50px;
+    background-color: rgb(250, 18, 126);
+    border: 1px solid black;
+    z-index:1;
+}
+.in3{
+    height:80px;
+    width:80px;
+    position: absolute;
+    top:60px;
+    left:60px;
+    background-color: rgb(68, 7, 236);
+    border: 1px solid black;
+    z-index: 2;
+}

@@ -1,0 +1,12 @@
+console.log('log1');
+console.log('log2');
+console.log('log3');
+setTimeout(()=>{
+    sum=0;
+    for(i=0;i<=100000;i++){
+        sum+=i;
+    }
+    console.log(sum);
+},3000)
+console.log("bye");
+console.log("waiting");

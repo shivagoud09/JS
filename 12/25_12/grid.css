@@ -1,0 +1,54 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgrey;
+    display:grid;
+    padding:0px;
+    margin:0px;
+    grid-template-columns: 0.5fr 4fr 0.8fr;
+    grid-template-areas:
+    "M M M"
+    "S W A"
+    "S W A"
+    "F F F";
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+header{
+    grid-area: M;
+    background-color: chocolate;
+    height:50px;
+    border-radius: 30px;
+    text-align: center;
+    position:sticky;
+    top: 0px;
+}
+
+nav{
+    grid-area: S;
+    background-color: goldenrod;
+    height:100vh;
+}
+
+main{
+    grid-area: W;
+    background-color:crimson;
+    height:100vh;
+
+}
+
+aside{
+    grid-area: A;
+    background-color: darkblue;
+    height:100vh;
+}
+footer{
+    grid-area: F;
+    background-color: greenyellow;
+    height:50px;
+
+}

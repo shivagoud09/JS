@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(247, 203, 171);
+}
+
+div{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+}
+
+.cg{
+    background-image: repeating-conic-gradient( red 20%, yellow 30%, green 50%)
+}
+
+.lg{
+    background-image: repeating-linear-gradient(to left, red 10%, yellow 20%, green 30%)
+}
+
+.rg{
+    background-image: repeating-radial-gradient(circle, yellow 20% ,blue 40%,green 40% )
+}

@@ -1,0 +1,141 @@
+body{
+    background-color:rgb(129, 129, 204);
+    height:200vh;
+} 
+h1{
+    text-align: center;
+    color:darkblue;
+}
+div{
+    border: 1px solid black;
+    background-color:darkblue;
+    height: 30px;
+    width: 100%;
+    color:aliceblue;
+    padding-top: 7px;
+}
+.i1{
+    display:inline-block;
+}
+span{
+    padding-right: 50px;
+}
+
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.6;
+}
+#i1{
+    height: 5px;
+    background-color: goldenrod;
+}
+
+
+.d1{
+background-color: rgb(3, 3, 68);
+color:aliceblue;
+height:50%;
+width:50%;
+
+}
+/* .para,.im{
+    width:50%;
+    height:200px;
+    background-color:rgb(129, 129, 204);
+    display:inline-block;
+} */
+/* .s2{
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+} */
+/* .out{
+    border: none;
+    background-color:rgb(129, 129, 204);
+    height:500px;
+    width:50%;
+    color:aliceblue;
+    padding: top 0px;
+}
+
+.in{
+    border: none;
+    background-color:none;
+    height:500px;
+    width:50%;
+    color:none;
+    padding-top:0px;
+
+} */
+
+.d4{
+    border: 1px solid black;
+    background-color:rgb(178, 178, 241);
+    height:450px;
+    width:100%;
+    color: none;
+    padding-top:0px;
+    box-shadow: 3px 3px rgb(33, 33, 240);
+}
+form{
+    /* border: 2px solid black; */
+    width:400px;
+    height:400px;
+    float: left;
+    margin:30px;
+    padding-left: 10px;
+    color:black;
+    box-shadow: white;
+}
+/* form:hover{
+    opacity:1;
+} */
+
+input{
+    display:block;
+}
+
+.flex{
+    display: flex;
+    height:500px;
+    width:100%;
+    background-color: rgb(138, 138, 247);
+    border:1px solid black;
+    flex-direction: row-reverse;
+}
+
+.flex > div{
+    width:400px;
+    height:400px;
+    margin-right:40px;
+    padding-top: 0px;
+    
+}
+.inout{
+    display: flex;
+    border:none;
+    background-color: rgb(138,138,247);
+    height: 500px;
+    width: 100%;
+    color:aliceblue;
+    
+
+}
+
+.inout > div{
+    background-color: rgb(138,138,247);
+    width:300px;
+    height:300px;
+    padding-top: 0px;
+}
+
+.im{
+    background-color: rgb(138,138,247);
+    border:none;
+    
+}
+

@@ -1,0 +1,38 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.container{
+    background-color: grey;
+    padding:20px;
+    border-radius:10px;
+    
+}
+
+input{
+    width:35px;
+    height:30px;
+    margin:5px;
+    background: transparent;
+    color:white;
+    font-weight: 700;
+    font-size: larger;
+    box-shadow:-1px 1px black;
+}
+
+form .display{
+    display:flex;
+}
+
+.display input{
+    box-shadow: none;
+    flex: 1;
+    background-color: green;
+    text-align: right;
+    justify-content: flex-end;
+}
+

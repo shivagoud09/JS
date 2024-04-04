@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfun1()">Click Here</button>
+<script>
+    function myfun1(){
+        myfun2();
+    }
+
+    function myfun2(){
+        myfun3();
+    }
+    function myfun3(){
+        console.trace();
+    }
+    console.warn("this is a warning");
+</script>
+</body>
+</html>
